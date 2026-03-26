@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_application_details">Детали заявки</string>
+    <string name="content_desc_back">Назад</string>
+    <string name="error_application_not_found">Заявка не найдена</string>
+    <string name="label_date_prefix">Дата: %1$s</string>
+    <string name="title_application_data">Данные заявки</string>
+    <string name="label_income_currency">Валюта дохода</string>
+    <string name="label_loan_currency">Валюта кредита</string>
+    <string name="title_similar_applications">Сравнение с аналогичными заявками</string>
+    <string name="column_date">Дата</string>
+    <string name="column_amount">Сумма</string>
+    <string name="probability_title">Вероятность одобрения</string>
+    <string name="probability_value_format">(%1$d%%)</string>
+    <string name="monthly_payment_format">Ежемесячный платёж: %1$d ₽</string>
+    <string name="probability_high">Высокая</string>
+    <string name="probability_medium">Средняя</string>
+    <string name="probability_low">Низкая</string>
+    <string name="probability_unknown">Неизвестно</string>
+    <string name="admin_approve">Одобрить</string>
+    <string name="admin_reject">Отклонить</string>
+    <string name="status_label">Статус: %1$s</string>
+    <string name="delete_dialog_title">Удалить заявку?</string>
+    <string name="delete_dialog_message">Заявка будет удалена без возможности восстановления.</string>
+    <string name="delete_dialog_confirm">Удалить</string>
+    <string name="delete_dialog_cancel">Отмена</string>
+    <string name="content_desc_delete">Удалить</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="save_draft_title">Сохранить в черновик?</string>
+    <string name="save_draft_message">Сохраните заявку в черновик, чтобы вернуться к ней позже</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_no">Нет</string>
+    
+    <string name="prefill_title">Заполнить данными из профиля?</string>
+    <string name="prefill_message">Мы можем автоматически подставить ваши данные из профиля, чтобы ускорить процесс заполнения заявки.</string>
+    <string name="action_yes_fill">Да, заполнить</string>
+    <string name="action_no_thanks">Нет, спасибо</string>
+    
+    <string name="content_desc_back">Назад</string>
+    <string name="action_back">Назад</string>
+    <string name="action_next">Далее</string>
+    <string name="action_submit_application">Отправить заявку</string>
+    
+    <string name="step_progress_format">Шаг %1$d из %2$d</string>
+
+    <string name="field_fio">ФИО</string>
+    <string name="field_surname">Фамилия</string>
+    <string name="field_name">Имя</string>
+    <string name="field_patronymic">Отчество</string>
+    <string name="field_passport">Серия и номер паспорта</string>
+    <string name="field_passport_issued">Кем выдан</string>
+    <string name="field_passport_date">Дата выдачи</string>
+    <string name="field_passport_code">Код подразделения</string>
+    <string name="field_inn">ИНН</string>
+    <string name="field_address">Адрес регистрации</string>
+    <string name="field_snils">СНИЛС</string>
+    <string name="field_email">Email</string>
+    <string name="field_phone">Телефон</string>
+    <string name="field_org_name">Название организации</string>
+    <string name="field_org_inn">ИНН работодателя</string>
+    <string name="field_income">Ежемесячный доход</string>
+    <string name="field_amount">Желаемая сумма</string>
+    <string name="field_term">Срок (мес)</string>
+    <string name="field_obj_address">Адрес объекта</string>
+    <string name="field_car_brand">Марка автомобиля</string>
+    <string name="field_zip">Почтовый индекс</string>
+    <string name="field_property_type">Тип имущества</string>
+    <string name="field_property_cost">Стоимость имущества</string>
+    <string name="field_leasing_term">Срок лизинга (мес)</string>
+    <string name="field_advance">Авансовый платёж</string>
+
+    <string name="section_personal">Личные данные</string>
+    <string name="section_passport">Паспортные данные</string>
+    <string name="section_identity">Контактная информация</string>
+    <string name="section_work">Данные о работе</string>
+    <string name="section_loan">Параметры кредита</string>
+</resources>

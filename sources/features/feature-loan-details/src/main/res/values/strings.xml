@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="make_application">Оформить заявку</string>
+    <string name="title_main_conditions">Основные условия</string>
+    <string name="label_loan_amount">Сумма кредита</string>
+    <string name="label_loan_term">Срок кредитования</string>
+    <string name="value_term_indefinite">Бессрочно</string>
+    <string name="label_contract_term">Срок действия договора</string>
+    <string name="label_interest_rate">Процентная ставка</string>
+    <string name="label_initial_payment">Первоначальный взнос</string>
+    <string name="label_grace_period">Льготный период</string>
+    <string name="label_min_payment">Минимальный платеж</string>
+    <string name="title_borrower_requirements">Требования к заемщику</string>
+    <string name="label_age">Возраст</string>
+    <string name="value_required">Требуется</string>
+    <string name="value_not_required">Не требуется</string>
+    <string name="label_citizenship">Гражданство РФ</string>
+    <string name="label_work_experience">Стаж на текущем месте(мес)</string>
+    <string name="label_income_confirmation">Подтверждение дохода</string>
+    <string name="format_amount_range">%1$s — %2$s</string>
+    <string name="format_term_months">от %1$d до %2$d мес.</string>
+    <string name="format_percent_from">от %1$s%%</string>
+    <string name="format_days_up_to">до %1$d дней</string>
+    <string name="format_min_payment_percent">%1$s%% от задолженности</string>
+    <string name="format_age_range">%1$d — %2$d лет</string>
+    <string name="format_months_from">от %1$d мес.</string>
+</resources>

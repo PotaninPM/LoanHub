@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="request_sent">Заявка отправлена!</string>
+    <string name="request_sent_long_text">Ваша заявка успешно сохранена и будет обработана в ближайшее время</string>
+    <string name="good">Хорошо</string>
+    <string name="back">Назад</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="check_data">Пожалуйста, проверьте данные перед подтверждением</string>
+    <string name="preview_text">Предпросмотр заявки</string>
+    <string name="back_text">Назад</string>
+</resources>

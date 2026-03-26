@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
+        <config>
+          <theme>@style/Theme.ProdFinalTour2026</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml">
+        <config>
+          <theme>@style/Theme.ProdFinalTour2026</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/visibility_24px.xml">
+        <config>
+          <theme>@style/Theme.ProdFinalTour2026</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/visibility_off_24px.xml">
+        <config>
+          <theme>@style/Theme.ProdFinalTour2026</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff65d739-bf7d-46b2-93e5-c1c724719209" name="Changes" comment="feat: loan application preview is ready">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/sources/features/navigation/ProdFinalTour2026.sources.features.navigation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Architecture.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Testing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/taskMain.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/SupabaseAuthenticator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/applications/models/LoanApplicationDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/auth/AuthSupabaseApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/auth/models/AuthModels.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/profile/models/UserProfileDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/buttons/LoanHubUiButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/buttons/LoanHubUiRadioButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/buttons/LoanHubUiTestAccountsButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/buttons/LoanHubUiTinyButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/cards/DetailInfoCard.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/ext/BaseShadow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/ext/ComposeClickDebouncer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/ext/LiquidGlass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/ext/Shimmer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/inputs/LoanHubUiCheckbox.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/inputs/LoanHubUiSlider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/inputs/LoanHubUiStepper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/inputs/LoanHubUiSwitch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/inputs/LoanHubUiTextField.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/inputs/LoanHubUiTextFieldValidation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/layouts/LoanHubUiBottomSheetLayout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/layouts/LoanHubUiCollapsingHeaderScreenLayout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/layouts/LoanHubUiShrinkingHeaderScreenLayout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/modals/ChooseAccountDialog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/modals/LoanHubUiConfirmationModal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/modals/LoanHubUiWarningModal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/text/LoanHubUiText.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/text/LoanHubUiTextAnimation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/theme/configs/Colors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/theme/configs/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/presentation/vibration/LoanHubUiVibrator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/java/com/potaninpm/uikit/utils/LoanTypeUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/drawable/ic_yandex_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/drawable/invisible.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/drawable/lotty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/drawable/minus_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/drawable/plus_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/drawable/visible.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/font/geologica.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/font/neue_haas_unica_w1g.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/font/tinkoff_sans_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/font/tinkoff_sans_medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/font/tinkoff_sans_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/common/uikit/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/core/auth/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/core/auth/src/main/java/com/potaninpm/core/auth/SessionManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/core/prefs/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/core/prefs/src/main/java/com/potaninpm/core/prefs/StringPreference.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/java/com/potaninpm/feature_auth/data/repository/AuthRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/java/com/potaninpm/feature_auth/di/AuthComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/java/com/potaninpm/feature_auth/di/AuthComponentHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/java/com/potaninpm/feature_auth/di/AuthComponentImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/java/com/potaninpm/feature_auth/di/AuthDeps.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/java/com/potaninpm/feature_auth/domain/repository/AuthRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/java/com/potaninpm/feature_auth/domain/usecase/LoginUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/java/com/potaninpm/feature_auth/domain/usecase/RegisterUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/java/com/potaninpm/feature_auth/presentation/screens/LoginScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/java/com/potaninpm/feature_auth/presentation/state/AuthState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/java/com/potaninpm/feature_auth/presentation/viewModels/AuthViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/avatar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/bookit_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/favorite_filled_24px.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_account_circle_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_add_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_add_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_arrow_back_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_calendar_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_info_outlined_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_list_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_menu_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_minus_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_minus_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/ic_yandex_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/logout_24px.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/plus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/qr_code_scanner_24px.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/visibility_24px.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/drawable/visibility_off_24px.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-auth/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-profile/src/main/java/com/potaninpm/feature_profile/data/repository/ProfileRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-profile/src/main/java/com/potaninpm/feature_profile/di/ProfileComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-profile/src/main/java/com/potaninpm/feature_profile/di/ProfileComponentHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-profile/src/main/java/com/potaninpm/feature_profile/di/ProfileDeps.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-profile/src/main/java/com/potaninpm/feature_profile/domain/model/Profile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-profile/src/main/java/com/potaninpm/feature_profile/domain/repository/ProfileRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-profile/src/main/java/com/potaninpm/feature_profile/presentation/state/ProfileState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/features/feature-profile/src/main/java/com/potaninpm/feature_profile/presentation/viewmodel/ProfileViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/common-di/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/common-di/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/common-di/src/main/java/com/potaninpm/common/impl/AppComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/common-di/src/main/java/com/potaninpm/common/impl/AppComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/common-di/src/main/java/com/potaninpm/common/impl/AppComponentImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/common-di/src/main/java/com/potaninpm/common/impl/AppComponentImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/network/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/network/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/ApiConstants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/ApiConstants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/NetworkProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/NetworkProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/TokenProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/TokenProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/applications/ApplicationsSupabaseApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/applications/ApplicationsSupabaseApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/applications/LoanApplicationDto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/loans/LoanDetailsDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/loans/models/LoanDetailsDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/loans/LoanProductDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/loans/models/LoanProductDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/loans/LoansSupabaseApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/loans/LoansSupabaseApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/profile/ProfileSupabaseApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/profile/ProfileSupabaseApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/common/network/src/main/java/com/potaninpm/network/supabase/profile/UserProfileDto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-application-details/src/main/java/com/potaninpm/feature_application_details/data/mapper/LoanApplicationMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-application-details/src/main/java/com/potaninpm/feature_application_details/data/mapper/LoanApplicationMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-application-preview/src/main/java/com/potaninpm/feature_application_preview/data/repository/SubmitApplicationRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-application-preview/src/main/java/com/potaninpm/feature_application_preview/data/repository/SubmitApplicationRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-edit-profile/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-edit-profile/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/data/mapper/ProfileMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/data/mapper/ProfileMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/data/repository/ProfileRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/data/repository/ProfileRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/di/EditProfileComponentHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/di/EditProfileComponentHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/di/EditProfileComponentImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/di/EditProfileComponentImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/di/EditProfileDeps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/di/EditProfileDeps.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/presentation/state/EditProfileState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/presentation/state/EditProfileState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/presentation/ui/EditProfileScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/presentation/ui/EditProfileScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/presentation/viewmodel/EditProfileViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/presentation/viewmodel/EditProfileViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/utils/UserProfile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-edit-profile/src/main/java/com/potaninpm/feature_edit_profile/utils/UserProfile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-loan-application/src/main/java/com/potaninpm/feature_loan_application/data/mapper/LoanApplicationMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-loan-application/src/main/java/com/potaninpm/feature_loan_application/data/mapper/LoanApplicationMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-loan-details/src/main/java/com/potaninpm/feature_loan_details/data/mapper/LoanDetailsMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-loan-details/src/main/java/com/potaninpm/feature_loan_details/data/mapper/LoanDetailsMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-loans-list/src/main/java/com/potaninpm/feature_loans_list/data/mapper/LoanProductMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-loans-list/src/main/java/com/potaninpm/feature_loans_list/data/mapper/LoanProductMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-my-requests/src/main/java/com/potaninpm/feature_my_requests/data/mapper/LoanApplicationMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-my-requests/src/main/java/com/potaninpm/feature_my_requests/data/mapper/LoanApplicationMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-profile/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-profile/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/feature-profile/src/main/java/com/potaninpm/feature_profile/presentation/ui/ProfileScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/feature-profile/src/main/java/com/potaninpm/feature_profile/presentation/ui/ProfileScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/navigation/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/navigation/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/navigation/src/main/java/com/potaninpm/navigation/RootNavDestinations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/navigation/src/main/java/com/potaninpm/navigation/RootNavDestinations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/features/navigation/src/main/java/com/potaninpm/navigation/RootNavHost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/features/navigation/src/main/java/com/potaninpm/navigation/RootNavHost.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=R5CWC2P7R0J)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Downloads/PROD2026_key.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/loan_application" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PotaninPM&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PotaninPM/ProdFinalTour2026.git&quot;,
+    &quot;accountId&quot;: &quot;1fb8d2ec-ca55-471e-a2d8-8d4e401f2271&quot;
+  }
+}</component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.13-bin/5xuhj0ry160q40clulazy9h7d/gradle-8.13" javaHome="$APPLICATION_HOME_DIR$/jbr/Contents/Home" gradleVersion="8.13" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="39WGR2ktSzYiCdgZQER50ZSEzpM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "ApkExportedModule": "ProdFinalTour2026.app",
+    "ExportApk.ApkPathForProdFinalTour2026.app": "/Users/mike/Desktop/potaninpm/app",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "feature/loan__application__preview",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mike/Desktop/potaninpm/sources/features/feature-loans-list/src/main/res/drawable",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
+    ],
+    "ExportApk.BuildVariants": [
+      "release"
+    ]
+  }
+}]]></component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sources/features/feature-loans-list/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/sources/features/feature-loan-application/src/main/res/drawable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$/sources/common" />
+      <recent name="$PROJECT_DIR$/sources/core" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="com.potaninpm.uikit.presentation.buttons" />
+      <recent name="com.potaninpm.network.supabase.profile.models" />
+      <recent name="com.potaninpm.network.supabase.applications.models" />
+      <recent name="com.potaninpm.network.supabase.loans.models" />
+      <recent name="com.potaninpm.feature_application_preview.di.component" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="ProdFinalTour2026.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" goal="" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="kotlin.scripts.KotlinBuildScript.sources:feature:auth:build.gradle.kts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="kotlin.scripts.KotlinBuildScript.sources:feature:auth:build.gradle.kts" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff65d739-bf7d-46b2-93e5-c1c724719209" name="Changes" comment="" />
+      <created>1770804402140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770804402140</updated>
+    </task>
+    <task id="LOCAL-00001" summary="DELETE COMMIT">
+      <option name="closed" value="true" />
+      <created>1770906838408</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770906838409</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DELETE COMMIT 2">
+      <option name="closed" value="true" />
+      <created>1770991706684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770991706684</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: fix detekt">
+      <option name="closed" value="true" />
+      <created>1770998199688</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770998199688</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: feature error was created">
+      <option name="closed" value="true" />
+      <created>1770999544348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770999544348</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: base navigation was added">
+      <option name="closed" value="true" />
+      <created>1770999623776</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770999623776</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: profile feature was added">
+      <option name="closed" value="true" />
+      <created>1770999717247</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770999717247</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: loans list is ready">
+      <option name="closed" value="true" />
+      <created>1771057921380</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771057921380</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: loans list is ready">
+      <option name="closed" value="true" />
+      <created>1771058216595</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771058216595</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: manual DI structure (useful) is READY">
+      <option name="closed" value="true" />
+      <created>1771069573344</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771069573344</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: added ful di">
+      <option name="closed" value="true" />
+      <created>1771070323273</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771070323273</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: app module now don't need feature implementations">
+      <option name="closed" value="true" />
+      <created>1771070463305</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771070463305</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: app module now don't need feature implementations">
+      <option name="closed" value="true" />
+      <created>1771070627494</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771070627494</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: adapt loans list for new DI">
+      <option name="closed" value="true" />
+      <created>1771070943574</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771070943574</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: adapt loans list for new DI">
+      <option name="closed" value="true" />
+      <created>1771071048724</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771071048724</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: loan details is ready">
+      <option name="closed" value="true" />
+      <created>1771078389452</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1771078389452</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: loan details screen is ready fully">
+      <option name="closed" value="true" />
+      <created>1771078705985</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1771078705985</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: edit profile screen is ready">
+      <option name="closed" value="true" />
+      <created>1771079555861</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1771079555861</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: my applications screen is ready, but needs to be rebuild">
+      <option name="closed" value="true" />
+      <created>1771082842939</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1771082842939</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: trash was deleted">
+      <option name="closed" value="true" />
+      <created>1771083371835</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1771083371835</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: application details is ready">
+      <option name="closed" value="true" />
+      <created>1771088806210</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1771088806210</updated>
+    </task>
+    <task id="LOCAL-00021" summary="refactor: some refactoring for loans list screen">
+      <option name="closed" value="true" />
+      <created>1771089038168</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1771089038168</updated>
+    </task>
+    <task id="LOCAL-00022" summary="refactor: some fixes in di and network modules">
+      <option name="closed" value="true" />
+      <created>1771090085629</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1771090085629</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: loan application is ready">
+      <option name="closed" value="true" />
+      <created>1771098660364</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1771098660364</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: loan application preview is ready">
+      <option name="closed" value="true" />
+      <created>1771104314228</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1771104314228</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DELETE COMMIT" />
+    <MESSAGE value="DELETE COMMIT 2" />
+    <MESSAGE value="feat: fix detekt" />
+    <MESSAGE value="feat: feature error was created" />
+    <MESSAGE value="feat: base navigation was added" />
+    <MESSAGE value="feat: profile feature was added" />
+    <MESSAGE value="feat: loans list is ready" />
+    <MESSAGE value="feat: manual DI structure (useful) is READY" />
+    <MESSAGE value="feat: added ful di" />
+    <MESSAGE value="feat: app module now don't need feature implementations" />
+    <MESSAGE value="feat: adapt loans list for new DI" />
+    <MESSAGE value="feat: loan details is ready" />
+    <MESSAGE value="feat: loan details screen is ready fully" />
+    <MESSAGE value="feat: edit profile screen is ready" />
+    <MESSAGE value="feat: my applications screen is ready, but needs to be rebuild" />
+    <MESSAGE value="feat: trash was deleted" />
+    <MESSAGE value="feat: application details is ready" />
+    <MESSAGE value="refactor: some refactoring for loans list screen" />
+    <MESSAGE value="refactor: some fixes in di and network modules" />
+    <MESSAGE value="feat: loan application is ready" />
+    <MESSAGE value="feat: loan application preview is ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: loan application preview is ready" />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.potaninpm.auth.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770906851195" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.database.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770906853566" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.feature_edit_profile.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1771079557658" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.feature_error.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770999545252" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.feature_loan_application.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1771104316067" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.feature_loan_details.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1771077002629" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.feature_loans_list.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770927219533" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.feature_profile.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1771000254675" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.finalproject">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770997160899" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.finalproject.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770997160913" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.navigation.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770999610252" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.network.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770994030878" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.preferences.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770906844417" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.proddraft">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770991707892" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.proddraft.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770991707895" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.serialization.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770906860013" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.uikit.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770996731353" />
+          </value>
+        </entry>
+        <entry key="com.potaninpm.utils.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1770996720284" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

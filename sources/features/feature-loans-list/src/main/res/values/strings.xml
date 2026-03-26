@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loans_title">Кредиты</string>
+    <string name="title_popular_offers">Популярные предложения</string>
+    <string name="title_all_products">Все продукты</string>
+</resources>

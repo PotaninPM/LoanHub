@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_edit_profile">Редактирование</string>
+    <string name="content_desc_back">Назад</string>
+    <string name="section_personal_info">Личная информация</string>
+    <string name="label_fio">ФИО (Фамилия Имя Отчество)</string>
+    <string name="label_birth_date">Дата рождения</string>
+    <string name="section_passport_data">Паспортные данные</string>
+    <string name="label_passport_series_number">Серия и номер</string>
+    <string name="error_format_passport">Формат: 1234 567890</string>
+    <string name="label_passport_issued_by">Кем выдан</string>
+    <string name="label_passport_date">Дата выдачи</string>
+    <string name="label_passport_division_code">Код подразделения</string>
+    <string name="error_format_division_code">Формат: 123-456</string>
+    <string name="section_documents">Документы</string>
+    <string name="label_inn">ИНН</string>
+    <string name="error_format_inn">10 или 12 цифр</string>
+    <string name="label_snils">СНИЛС</string>
+    <string name="error_format_snils">Формат: XXX-XXX-XXX XX</string>
+    <string name="section_contact_info">Контактные данные</string>
+    <string name="label_phone">Телефон</string>
+    <string name="label_email">Email</string>
+    <string name="label_address_registration">Адрес регистрации</string>
+    <string name="label_postal_code">Почтовый индекс</string>
+    <string name="error_format_postal_code">6 цифр</string>
+    <string name="section_work_info">Рабочая информация</string>
+    <string name="label_employer_name">Место работы</string>
+    <string name="label_employer_inn">ИНН работодателя</string>
+    <string name="label_job_title">Должность</string>
+    <string name="label_work_experience">Стаж работы (мес.)</string>
+    <string name="label_monthly_income">Ежемесячный доход (рубли)</string>
+    <string name="btn_saving">Сохранение...</string>
+    <string name="btn_save">Сохранить</string>
+</resources>

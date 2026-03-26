@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_in_with_yandex_id">Войти с Яндекс ID</string>
+    <string name="test_acccounts">Тестовые аккаунты</string>
+    <string name="prod_text_field_error_required">Поле не должно быть пустым</string>
+    <string name="prod_text_field_error_invalid_email">Введите корректный адрес электронной почты</string>
+    <string name="prod_text_field_error_password_length">Пароль должен быть не короче %1$d символов</string>
+    <string name="prod_text_field_error_password_uppercase">Добавьте хотя бы одну заглавную букву</string>
+    <string name="prod_text_field_error_password_lowercase">Добавьте хотя бы одну строчную букву</string>
+    <string name="prod_text_field_error_password_digit">Добавьте хотя бы одну цифру</string>
+    <string name="prod_text_field_error_password_special">Добавьте хотя бы один специальный символ</string>
+    <string name="loan_type_consumer">Потребительский кредит</string>
+    <string name="loan_type_mortgage">Ипотека</string>
+    <string name="loan_type_auto">Автокредит</string>
+    <string name="loan_type_credit_card">Кредитная карта</string>
+    <string name="loan_type_leasing">Лизинг</string>
+    <string name="default_error_title">Не удалось загрузить</string>
+    <string name="default_error_description">Проверьте подключение к сети</string>
+    <string name="default_error_button_text">Обновить</string>
+</resources>

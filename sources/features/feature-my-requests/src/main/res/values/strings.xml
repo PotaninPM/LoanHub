@@ -1,0 +1,31 @@
+<resources>
+    <string name="my_requests_title">Мои заявки</string>
+    <string name="menu_import_json">Импорт JSON</string>
+    <string name="menu_import_csv">Импорт CSV</string>
+    <string name="menu_export_json">Экспорт JSON</string>
+    <string name="menu_export_csv">Экспорт CSV</string>
+    <string name="drafts_section_title">Все черновики</string>
+    <string name="submitted_requests_count">%d заявок</string>
+    <string name="filter_all">Все</string>
+    <string name="filter_consumer">Потребительский</string>
+    <string name="filter_mortgage">Ипотека</string>
+    <string name="filter_auto">Автокредит</string>
+    <string name="filter_credit_card">Карта</string>
+    <string name="filter_leasing">Лизинг</string>
+    <string name="empty_state_title">Заявок пока нет</string>
+    <string name="empty_state_subtitle">Перейдите в раздел «Кредиты» чтобы создать заявку</string>
+    <string name="status_draft">Черновик</string>
+    <string name="status_submitted">На рассмотрении</string>
+    <string name="status_approved">Одобрено</string>
+    <string name="status_rejected">Отклонено</string>
+    <string name="card_continue_action">Нажмите, чтобы продолжить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="menu_desc">Меню</string>
+    <string name="admin_approve">Одобрить</string>
+    <string name="admin_reject">Отклонить</string>
+    <string name="export_dialog_title">Выберите заявки для экспорта</string>
+    <string name="export_select_all">Выбрать все</string>
+    <string name="export_confirm">Экспортировать</string>
+    <string name="export_cancel">Отмена</string>
+    <string name="export_selected_count">Выбрано: %d</string>
+</resources>

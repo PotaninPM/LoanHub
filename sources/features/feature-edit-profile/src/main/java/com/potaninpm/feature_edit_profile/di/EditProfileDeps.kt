@@ -1,0 +1,11 @@
+package com.potaninpm.feature_edit_profile.di
+
+import com.potaninpm.core.auth.SessionManager
+import com.potaninpm.network.supabase.profile.ProfileSupabaseApi
+import com.potaninpm.utils.dispatchers.DispatcherProvider
+
+interface EditProfileDeps {
+    val profileSupabaseApi: ProfileSupabaseApi
+    val sessionManager: SessionManager
+    val dispatcherProvider: DispatcherProvider
+}

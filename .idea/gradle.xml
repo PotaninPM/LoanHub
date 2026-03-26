@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/sources" />
+            <option value="$PROJECT_DIR$/sources/common" />
+            <option value="$PROJECT_DIR$/sources/common/common-di" />
+            <option value="$PROJECT_DIR$/sources/common/database" />
+            <option value="$PROJECT_DIR$/sources/common/network" />
+            <option value="$PROJECT_DIR$/sources/common/serialization" />
+            <option value="$PROJECT_DIR$/sources/common/uikit" />
+            <option value="$PROJECT_DIR$/sources/core" />
+            <option value="$PROJECT_DIR$/sources/core/auth" />
+            <option value="$PROJECT_DIR$/sources/core/prefs" />
+            <option value="$PROJECT_DIR$/sources/core/utils" />
+            <option value="$PROJECT_DIR$/sources/features" />
+            <option value="$PROJECT_DIR$/sources/features/feature-application-details" />
+            <option value="$PROJECT_DIR$/sources/features/feature-application-preview" />
+            <option value="$PROJECT_DIR$/sources/features/feature-auth" />
+            <option value="$PROJECT_DIR$/sources/features/feature-edit-profile" />
+            <option value="$PROJECT_DIR$/sources/features/feature-error" />
+            <option value="$PROJECT_DIR$/sources/features/feature-loan-application" />
+            <option value="$PROJECT_DIR$/sources/features/feature-loan-details" />
+            <option value="$PROJECT_DIR$/sources/features/feature-loans-list" />
+            <option value="$PROJECT_DIR$/sources/features/feature-my-requests" />
+            <option value="$PROJECT_DIR$/sources/features/feature-profile" />
+            <option value="$PROJECT_DIR$/sources/features/navigation" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
